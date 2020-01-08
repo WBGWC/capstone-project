@@ -1,6 +1,7 @@
 /* Rules outside of any media queries apply to all devices (mobile-first). */
 html {
-  --primary-color: #845ec2;
+  background-image: url("https://image.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg");
+	--primary-color: #3e739d;
   --secondary-color: #b39cd0;
   --text-primary-color: #fbeaff;
   --text-secondary-color: #00c9a7;
@@ -210,4 +211,12 @@ footer {
 @keyframes animatezoom {
   from {transform: scale(0)}
   to {transform: scale(1)}
+}
+
+#eapps-social-icons-1 .eapps-social-icons-item {
+  opacity: 1;
+}
+
+#eapps-social-icons-1 .eapps-social-icons-item:hover {
+  opacity: 1;
 }
